@@ -1,0 +1,12 @@
+INSERT INTO users (username, password, enabled) values ('user', '$2a$08$ywcn2mJ6cmwh124WotVn9e3mEmd4.ngHozsXfGysbkDHcyPBaLsjW', true);
+INSERT INTO users (username, password, enabled) values ('admin', '$2a$08$ywcn2mJ6cmwh124WotVn9e3mEmd4.ngHozsXfGysbkDHcyPBaLsjW', true);
+INSERT INTO users (username, password, enabled) values ('user2', '$2a$08$ywcn2mJ6cmwh124WotVn9e3mEmd4.ngHozsXfGysbkDHcyPBaLsjW', true);
+INSERT INTO users (username, password, enabled) values ('user3', '$2a$08$ywcn2mJ6cmwh124WotVn9e3mEmd4.ngHozsXfGysbkDHcyPBaLsjW', true);
+INSERT INTO users (username, password, enabled) values ('admin2', '$2a$08$ywcn2mJ6cmwh124WotVn9e3mEmd4.ngHozsXfGysbkDHcyPBaLsjW', true);
+INSERT INTO authorities (username, authority) values ('user', 'ROLE_USER');
+INSERT INTO authorities (username, authority) values ('admin', 'ROLE_USER');
+INSERT INTO authorities (username, authority) values ('admin', 'ROLE_ADMIN');
+INSERT INTO authorities (username, authority) values ('admin2', 'ROLE_ADMIN');
+INSERT INTO authorities (username, authority) values ('user2', 'ROLE_USER');
+INSERT INTO authorities (username, authority) values ('user3', 'ROLE_USER');
+INSERT INTO authorities (username, authority) values ('user3', 'ROLE_USER');

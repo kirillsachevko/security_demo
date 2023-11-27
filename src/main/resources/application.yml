@@ -1,0 +1,16 @@
+spring:
+  security:
+    user:
+      name: name
+      password: password
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/mydatabase?serverTimezone=UTC
+#    username: root
+#    password: root
+#    driverClassName: com.mysql.cj.jdbc.Driver
+  sql:
+    init: always
+  jpa:
+#    database-platform: org.hibernate.dialect.MariaDB103Dialect
+    hibernate:
+      ddl-auto: none
